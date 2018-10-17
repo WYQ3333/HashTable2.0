@@ -31,6 +31,7 @@ typedef struct HashTable
 	HashFuncType hash;//哈希函数
 }HashTable;
 
+//时间复杂度统一为O(1)
 void HashTableInit(HashTable *pHT, size_t capacity,HashFuncType hash);
 void HashTableDestory(HashTable *pHT);//销毁哈希表
 int HashSearch(HashTable *pHT, KeyType key);//哈希查找

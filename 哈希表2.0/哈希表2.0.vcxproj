@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{69C20CC9-E35A-4B2D-8E8F-017703F26611}</ProjectGuid>
     <RootNamespace>哈希表20</RootNamespace>
+    <ProjectName>哈希表（线性探测）2.0</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
